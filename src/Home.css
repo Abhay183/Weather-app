@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    background-color: rgb(13 11 38);
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    width:100vw;
+    background-color:rgb(41 37 91 / 90%);
+    color:azure;
+}
+.header >h2{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.main{
+    margin-top: 20vh;
+    padding: 0 20px ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.input-tag{
+    border: none;
+    padding: 10px 5px;
+    min-width: 150px;
+   color: white;
+    background-color: rgb(41 37 91 / 90%);
+    border-radius: 2px;
+   
+    
+}
+.icon{
+    margin-left: 15px ;
+    color: white;
+}
+
+
+.min-max{
+    display: flex;
+    flex-direction: row;
+}
+.s{
+    margin: 0px 12px ;
+}
+.weather-icon{
+    margin: 20px 0px;
+    font-size: 4rem;
+}
+.weather-temp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.weather-desc{
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+
+input:focus {
+    outline: none;
+     /* Set your desired border style */
+}
+.location{
+    margin:5px 0px;
+}
+
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color:white;
+    flex-wrap: wrap;
+    margin: 0px 15px;
+   
+}
+.main2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20vh;
+    padding: 0 20px ;
+    margin-bottom: 20px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.highlight{
+    margin: 7px;
+    min-width: 100px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    flex-direction: column;
+    background-color: rgb(41 37 91 / 90%);
+    border-radius: 5px;
+}
+.highlight >h3{
+    margin: 5px;
+}
+.highlight >p{
+    margin: 5px;
+}
+.tempc{
+    margin-left:7px;
+}
+
+@media screen {
+    
+}
+@media only screen and (max-width: 545px) {
+   .main2{
+    margin-top: 15vh;
+    margin-left:0px
+   }
+  }
